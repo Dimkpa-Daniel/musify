@@ -1,0 +1,67 @@
+ [
+    {
+        "name": "Wireless Headphones",
+        "nickname": "with Doubly Sorround Sound",
+        "tag": "headphone",
+        "price": 55000,
+        "imgSrc": "images/black-headphone.jpg",
+        "blueprint": "images/Beats-headphone.png",
+        "inCart": 0,
+        "id": "1"
+    },
+    {
+        "name": "Wireless Headphones",
+        "nickname": "with Doubly Sorround Sound",
+        "tag": "headphone",
+        "price": 70000,
+        "imgSrc": "images/headphone-3.jpg",
+        "blueprint": "images/headphone.png",
+        "inCart": 0,
+        "id": "2"
+    },
+    {
+        "name": "Wireless Headphones",
+        "nickname": "with Doubly Sorround Sound",
+        "tag": "headphone",
+        "price": 100000,
+        "imgSrc": "images/Headphone-4.jpg",
+        "blueprint": "images/headphone-2.jpg",
+        "inCart": 0,
+        "id": "3"
+    },
+    {
+        "name": "Wireless Headphones",
+        "nickname": "with Doubly Sorround Sound",
+        "tag": "headphone",
+        "price": 150000,
+        "imgSrc": "images/headphone.png",
+        "blueprint": "images/Headphone-2.jpg",
+        "inCart": 0,
+        "id": "4"
+    },
+    {
+        "name": "Wireless Headphones",
+        "nickname": "with Doubly Sorround Sound",
+        "tag": "headphone",
+        "price": 650000,
+        "imgSrc": "images/Beats-headphone.png",
+        "blueprint": "images/JBL speaker.jpg",
+        "inCart": 0,
+        "id": "5"
+    },
+    {
+        "name": "Wireless Headphones",
+        "nickname": "with Doubly Sorround Sound",
+        "tag": "headphone",
+        "price": 30000,
+        "imgSrc": "images/black-headphone.jpg",
+        "blueprint": "images/JBL Flip 5.jpg",
+        "inCart": 0,
+        "id": "6"
+    }
+]
+
+
+
+
+

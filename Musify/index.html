@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" type="image" href="./img/musify-logo.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./My Css/style.css">
+  <link rel="stylesheet" href="./My Css/utilities.css">
+  <title>Musify</title>
+</head>
+
+<body>
+
+
+
+  <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./img/musify-logo.png" width="40px" height="40px">
+                <h3>MUSIFY</h3>
+                <h6>DIVE IN BEATS</h6>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Explore</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="toggle"></button>
+            
+            <!-- <img src="./img/toggle-off.png" width="40px" height="40px" class="header-img1"> -->
+            <img src="./img/search-icon.png" width="20px" height="20px" class="header-img2">
+            <!-- <img src="./img/Cart-icon.png" width="40px" height="40px" class="header-img3"> -->
+            <div class="header-logo-cart">
+           
+              <div class="cart-and-amount">
+              <button class="shopping-cart" style="background-color: rgb(233, 103, 17); padding: 0px 10px;">
+                <img src="images/shopping-cart-outline.svg">
+                <p class="cart-amount">0</p>
+              </button>
+              
+            </div>
+            </div>
+            
+            <button class="login-btn">Login</button>
+            <img src="./img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+
+     <!---------- Hero-Section Section----------->
+     <div class="container">
+    <div class="row">
+        <div class="col-2">
+            <h1>Let's Dive in <br><span>Music</span> World</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+               Ratione, nesciunt temporibus sunt doloremque vitae, quis 
+               praesentium facilis architecto recusandae optio error 
+               placeat aliquam exercitationem ad.
+            </p>
+            <a href="" class="btn">Shop now</a>
+            <a href="" class="btn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+        </div>
+        <div class="col-2">
+            <img src="./img/musify-img.png">
+        </div>
+    </div>
+
+    <div class="products-1">
+        <i class="fa-solid fa-arrow-down fa-3x"></i>
+
+        <div class="carousel">
+            <img src="./img/Beats-headphone.png" width="150px" height="150px">
+            <p>Wireless Headphones</p>
+            <p class="price">$120</p>
+            <p class="strike">$185</p>
+        </div>
+
+        <div class="carousel">
+            <img src="./img/Beats-headphone.png" width="150px" height="150px">
+            <p>Wireless Headphones</p>
+            <p class="price">$120</p>
+            <p class="strike">$185</p>
+        </div>
+
+        <div class="carousel">
+            <img src="./img/Beats-headphone.png" width="150px" height="150px">
+            <p>Wireless Headphones</p>
+            <p class="price">$120</p>
+            <p class="strike">$185</p>
+        </div>
+
+    </div>
+    </div>
+
+</div>
+
+
+
+
+  <header>
+    <div class="header-wrapper">
+      <!-- WRAPPER FOR LOGO + SHOPPING CART  -->
+      <!-- <div class="header-logo-cart">
+        <a href="index.html" class="main-logo"><img src="images/Aviato-Logo.png" alt="" /></a>
+        <div class="cart-and-amount">
+        <button class="shopping-cart">
+          <img src="images/shopping-cart-outline.svg">
+          <p class="cart-amount">0</p>
+        </button>
+        
+      </div>
+      </div> -->
+      <!-- SEACRCH FORM  -->
+      <form class="search-bar-form">
+        <div class="search-field">
+          <!-- <img src="images/Magnifying_glass_icon.svg" alt="Magnifying_glass" /> -->
+          <input disabled class="search-bar-input" style="background-color: transparent;" /> 
+        </div>
+      </form>
+    </div>
+  </header>
+  <div class="container">
+    <h1 class="title">Popular Trends</h1>
+
+
+
+
+
+
+    <main>
+
+        <section class="products">
+    
+        </section> 
+      
+          <!-- CART  -->
+          <div class="cart-overlay"> 
+          <div class="cart-container">
+           
+            <div class="cart"></div>
+            <div class="cart-content">
+            
+            </div>
+            <div class="cart-footer">
+              <ul class="cart-footer-text">
+                <li> <h3 class="free-shipping">Free Shiping<ion-icon name="airplane-outline"></ion-icon></h3></li>
+                <li> <h3>Your total: &#8358<span class="cart-total"></span></h3></li>
+              </ul>
+    
+              <ul  class="cart-footer-buttons">
+                <div class="close_clear-cart">
+                <li><button class="close_cart-btn"><img src="images/211652_close_icon.svg">Close cart</button></li>
+                <li><button class="clear-cart-btn"><ion-icon class="trash-clear-all"name="trash-outline"></ion-icon>Clear cart</button></li>
+              </div>
+                <li><button class="order-btn" onclick="payWithPaystack()"><ion-icon name="checkmark-outline"></ion-icon>Order</button></li>
+              </ul>
+            </div>
+         </div> 
+      </main>
+
+  </div>
+
+
+
+
+    <!-------------- Services Section------------->
+
+    <div class="container">
+      <div class="col-3">
+          <h1 class="title">Why buy directly from Musify?</h1>
+          <div class="row services">
+          <p><i class="fa-solid fa-truck"></i>free delivery</p>
+          <p><img src="./img/verified.png" width="30px" height="30px"> Verified Products</p>
+          <p><i class="fa-solid fa-phone"></i>24/7 Customer support</p>
+          </div>
+      </div>
+  </div>
+
+  <!---------- Exclusive offer Section---------->
+
+  <div class="container">
+      <div class="col-4">
+          <div class="row">
+              <div class="offer-img">
+              <p>20% <br> off</p>
+              <img src="./img/headphone.png" >
+              </div>
+
+              <div class="ex-offer">
+                  <h1 class="title">Exclusive Offer</h1>
+                  <p class="offer-p1">offer ends in</p>
+                  <div class="row close">
+                  <p class="time">02</p> <p class="time">38</p> <p class="time">49</p>
+                  </div>
+                  <div class="row close-2">
+                  <p class="time-2">Hour</p> <p class="time-2">Mins</p> <p class="time-2">Secs</p>
+                  </div>
+                  
+
+                  <a href="" class="btn-2">View details</a>
+                  <a href="" class="btn-2">Shop now</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!---------------- Other Accessories Section----------------->
+ 
+  <div class="container">
+      <h1 class="title">Try our other Accessories</h1>
+
+      <div class="row-2 accessories-img">
+          <img src="./img/Rolex Watch.jpg" class="rolex-watch" width="400px" height="300px">
+          <img src="./img/Beats_by_Dre.png" class="beats-by-dre" width="400px" height="300px">
+          </div>
+          <div class="row-2 accessories-img-2">
+          <img src="./img/Soundcore_speaker.png" class="soundcore" width="400px" height="300px">
+          <img src="./img/JBL speaker.jpg" class="jbl" width="400px" height="300px">
+      </div>
+  </div>
+
+  <!------------- New Arrivals Section-------------->
+
+  <div class="container">
+      <h1 class="title">New Arrivals</h1>
+
+      <div class="row">
+          <div class="carousel-3">
+              <img src="./img/headphone-2.jpg" width="345px" height="340px">
+              <p class="product-name">Wireless Headphones <br> with Doubly Sorround Sound</p>
+              <ul>
+                  <li>Truely Wireless</li>
+                  <li>Double Surround Sound</li>
+                  <li>13hrs of playback time</li>
+                  <li>Made in Germany</li>
+              </ul>
+              <!-- <p class="price-3">$79.20</p>
+              <a href="" class="btn-2"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+              <a href="" class="btn-2">Buy now</a> -->
+          </div>
+  
+          <div class="carousel-3">
+              <img src="./img/Headphone-4.jpg" width="345px" height="340px">
+              <p class="product-name">Wireless Headphones <br> with Doubly Sorround Sound</p>
+              <ul>
+                  <li>Truely Wireless</li>
+                  <li>Double Surround Sound</li>
+                  <li>13hrs of playback time</li>
+                  <li>Made in Germany</li>
+              </ul>
+              <!-- <p class="price-3">$122.00</p>
+              <a href="" class="btn-2"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+              <a href="" class="btn-2">Buy now</a> -->
+          </div>
+  
+          <div class="carousel-3">
+              <img src="./img/headphone-3.jpg" width="345px" height="340px">
+              <p class="product-name">Wireless Headphones <br> with Doubly Sorround Sound</p>
+              <ul>
+                  <li>Truely Wireless</li>
+                  <li>Double Surround Sound</li>
+                  <li>13hrs of playback time</li>
+                  <li>Made in Germany</li>
+              </ul>
+              <!-- <p class="price-3">$149.80</p>
+              <a href="" class="btn-2"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+              <a href="" class="btn-2">Buy now</a> -->
+          </div>
+          </div>
+  </div>
+
+  <!------------ Scan QR code for more Section---------->
+
+  <div class="container">
+      <div class="row qr-code">
+          <img src="./img/Qr-code.png" class="qr-code-img">
+
+          <div>
+              <h1>Scan QR code for more</h1>
+              <p>Now you can download the official Musify app.</p>
+              <div class="row">
+                  <img src="./img/google-play-badge.png" height="68px" class="playstore">
+                  <img src="./img/App_Store_logo.png" class="appstore">
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+ <!--------------- Footer ---------------->
+
+ <div class="footer">
+  <div class="container">
+      <div class="row">
+
+          <div class="footer-col-5">
+              <img src="./img/musify-logo.png" width="150px" height="150px">
+              <h1>MUSIFY</h1>
+              <p>DIVE IN BEATS</p>
+          </div>
+
+          <div class="footer-col-6">
+              <h2>Shop</h2>
+              <ul>
+              <li>Wireless</li>
+              <li>Headphone</li>
+              <li>Gaming</li>
+              <li>Speakers</li>
+              <li>Soundbars</li>
+              <li>Professional</li>
+              <li>Other Zone</li>
+              </ul> 
+
+              <h2 class="country">country <br> India</h2>
+          </div>
+
+          <div class="footer-col-7">
+              <h2>Support</h2>
+              <ul>
+                 <li>Older Status</li>
+                 <li>Bulk Purchase program</li>
+                 <li>Buy Authentic</li>
+                 <li>Product Support</li>
+                 <li>Shipping & Delivery policy</li>
+                 <li>Cancellation & Refund policy</li>
+                 <li>Service center</li>
+                 <li>Brand Stores</li>
+              </ul>
+          </div>
+
+          <div class="footer-col-8">
+              <h2>About Us</h2>
+              <ul>
+                  <li>Harman Corporate</li>
+                  <li>Privacy policy</li>
+                  <li>Terms of Use</li>
+                  <li>Why Buy Direct</li>
+                  <li>JBL Sound Partners</li>
+              </ul>
+
+              <h2 class="contact-us">Contact Us</h2>
+
+              <ul>
+                 <li>1800-102-0525</li>
+                 <li>Mon-Sun- 10AM-7PM</li> 
+                 <li>Manufactured by:</li> 
+                 <li>Harman International Industries, Inc.</li> 
+                 <li>8500, Balboa.Blvd,</li> 
+                 <li>Northridge, CA 91329, USA</li>
+                 <li>Share on Social Media</li>
+              </ul>
+
+              <div class="row">
+                  <img src="" alt="">
+                  <img src="" alt="">
+                  <img src="" alt="">
+              </div>
+
+          </div>
+
+      </div>
+      <div class="subscribe">
+      <h2>Subscribe to our Newsletter</h2>
+      <input type="email" name="" id="" placeholder="Enter your mail id"> <button class="footer-btn">Subscribe</button>
+      </div>
+      <br>
+      <p class="copyright">&copy; Copyright 2022.Musify.All Rights Reserved</p>
+
+  </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+ <script src="app.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+ 
+
+
+
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+</body>
+
+</html>
